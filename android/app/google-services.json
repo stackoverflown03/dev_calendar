@@ -1,45 +1,36 @@
 {
   "project_info": {
-    "project_number": "604425424878",
-    "project_id": "deliveryapp-32129",
-    "storage_bucket": "deliveryapp-32129.firebasestorage.app"
+    "project_number": "705853328444",
+    "project_id": "devcalendar-355ba",
+    "storage_bucket": "devcalendar-355ba.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:604425424878:android:a4e41ff2e8fd1ad44148ff",
+        "mobilesdk_app_id": "1:705853328444:android:31fae4bab6f79a7de0c739",
         "android_client_info": {
           "package_name": "com.example.dev_calendar"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "705853328444-nft866t33k3skm7r9h4dk0nqgh6scg8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyB31KFFnVwwv8qjxaKxzbncILlsgSX8TE8"
+          "current_key": "AIzaSyDxynyh3iHWi_UfDwnmDNueP3nOiy1gHzo"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:604425424878:android:17e380a4d0ca450f4148ff",
-        "android_client_info": {
-          "package_name": "com.example.food_delivery"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB31KFFnVwwv8qjxaKxzbncILlsgSX8TE8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705853328444-nft866t33k3skm7r9h4dk0nqgh6scg8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

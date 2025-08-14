@@ -28,9 +28,10 @@ class _homescreenState extends State<homescreen> {
       body:Padding(
         padding: const EdgeInsets.all(10.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            SizedBox(
+              height: 50,
+            ),
             Row(
               children: [
                 Padding(
@@ -65,13 +66,16 @@ class _homescreenState extends State<homescreen> {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text("$day",
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text("$day",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
                 color: Colors.black,
               ),
-              textAlign: TextAlign.left),
+              ),
+            ),
             ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -111,7 +115,7 @@ class _homescreenState extends State<homescreen> {
                           Text("$no",
                             style: TextStyle(
                                 fontSize: 80,
-                              fontWeight: FontWeight.w600,
+                              fontWeight: FontWeight.w500,
                             ),),
                           Text("tasks left today",
                           style: TextStyle(

@@ -37,6 +37,7 @@ dependencies:
   intl:
   firebase_auth:
   firebase_core:
+  table_calendar:
 
 
 dev_dependencies:
